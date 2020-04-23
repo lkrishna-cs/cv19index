@@ -1,0 +1,5 @@
+camel: 1.0.0
+name: default/cv19-index-skill
+title: CV19-index-skill
+description: Skill for predicting the CV19 Vulnerability Index
+# More fabric metadata

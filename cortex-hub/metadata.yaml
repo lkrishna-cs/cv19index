@@ -1,0 +1,20 @@
+version: hub/v1alpha
+kind: installable
+name: CV-19 Prediction Model
+image: logo.png
+summary: |
+  The COVID-19 Vulnerability Index (CV19 Index)
+description: |
+  The COVID-19 Vulnerability Index (CV19 Index) is a predictive model that identifies people who are likely to have a heightened vulnerability to severe complications from COVID-19 (commonly referred to as “The Coronavirus”). The CV19 Index is intended to help hospitals, federal / state / local public health agencies and other healthcare organizations in their work to identify, plan for, respond to, and reduce the impact of COVID-19 in their communities.
+license: ../LICENSE.txt
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: model
+    name: CV-19 Prediction Model
+  - type: certifai-scan
+    name: Certifai Scan
+    location: certifai/certifai.yaml
+gitUrl: https://github.com/lkrishna-cs/cv19index
